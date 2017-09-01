@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>{{title}}</h1>
+    <p>Os Vingadores (Avengers no original em inglês) são um grupo de super-heróis de história em quadrinhos publicados nos Estados Unidos pela editora Marvel Comics. O grupo também aparece em adaptações da Marvel para cinema, desenho animado e videogames. (Wikipedia)</p>
+    <p>Alguns membros da formação atual (clique para ver detalhes):</p>
+    <div>
+
+<app-listaherois></app-listaherois>
+
+ </div>
+
+    <div *ngIf="selecionado">
+        {{ selecionado | json }}
+    </div>
+</div>

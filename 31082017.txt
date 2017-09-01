@@ -1,0 +1,18 @@
+1) módulo
+	::: importa: outros módulos
+	::: declara: componentes
+	::: inicia: componente principal
+2) componente
+	::: código typescript
+	::: template
+	::: seletor
+
+declarar novos componentes no app.module.ts
+
+____________________________
+exercício
+____________________________
+criar novo componente "heroi-lista" (lista de herois)
+
+passo1 :: criar novo component --> c:\users\lpweb.pmw\AppData\Roaming\npm\ng g component ListaDeHerois
+	npm install
